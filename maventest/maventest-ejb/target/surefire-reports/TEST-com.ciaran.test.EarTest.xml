@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="12.284" errors="1" skipped="0" tests="1" name="com.ciaran.test.EarTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\tools\java\jdk1.7.0_75\jre\bin"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\projects\MavenTest\maventest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\projects\MavenTest\maventest"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="c:\tools\java\jdk1.7.0_75\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ciaran\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\tools\apache-maven-3.3.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\tools\java\jdk1.7.0_75\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\tools\java\jdk1.7.0_75\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\tools\apache-maven-3.3.3\bin;C:\tools\apache-maven-3.3.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Users\ciaran\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\ciaran"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ciaran"/>
+    <property name="java.class.path" value="C:\tools\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\tools\java\jdk1.7.0_75\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="c:\tools\java\jdk1.7.0_75\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\tools\java\jdk1.7.0_75\jre\lib\resources.jar;c:\tools\java\jdk1.7.0_75\jre\lib\rt.jar;c:\tools\java\jdk1.7.0_75\jre\lib\sunrsasign.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jsse.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jce.jar;c:\tools\java\jdk1.7.0_75\jre\lib\charsets.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jfr.jar;c:\tools\java\jdk1.7.0_75\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\tools\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="12.284" classname="com.ciaran.test.EarTest" name="com.ciaran.test.EarTest">
+    <error message="Could not deploy to container: {&quot;JBAS014671: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment \&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;&quot;}}" type="org.jboss.arquillian.container.spi.client.container.DeploymentException">org.jboss.arquillian.container.spi.client.container.DeploymentException: Could not deploy to container: {&quot;JBAS014671: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment \&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;&quot;}}
+	at org.jboss.as.arquillian.container.ArchiveDeployer.deploy(ArchiveDeployer.java:74)
+	at org.jboss.as.arquillian.container.CommonDeployableContainer.deploy(CommonDeployableContainer.java:148)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:161)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:128)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:271)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:85)
+	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:92)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:92)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:92)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:143)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:114)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:95)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:80)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:263)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:239)
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:85)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:143)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:114)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:85)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:92)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:92)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:143)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:114)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:87)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:202)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:431)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:55)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:219)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:167)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:134)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: java.lang.Exception: {&quot;JBAS014671: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment \&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;&quot;}}
+	at org.jboss.as.controller.client.helpers.standalone.impl.ServerDeploymentPlanResultFuture.getActionResult(ServerDeploymentPlanResultFuture.java:134)
+	at org.jboss.as.controller.client.helpers.standalone.impl.ServerDeploymentPlanResultFuture.getResultFromNode(ServerDeploymentPlanResultFuture.java:123)
+	at org.jboss.as.controller.client.helpers.standalone.impl.ServerDeploymentPlanResultFuture.get(ServerDeploymentPlanResultFuture.java:85)
+	at org.jboss.as.controller.client.helpers.standalone.impl.ServerDeploymentPlanResultFuture.get(ServerDeploymentPlanResultFuture.java:42)
+	at org.jboss.as.arquillian.container.ArchiveDeployer.executeDeploymentPlan(ArchiveDeployer.java:91)
+	at org.jboss.as.arquillian.container.ArchiveDeployer.deploy(ArchiveDeployer.java:58)
+	... 94 more
+</error>
+    <system-out>18:57:28,008 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+18:57:28,446 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+18:57:28,501 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final &quot;Brontes&quot; starting
+18:57:30,505 INFO  [org.xnio] XNIO Version 3.0.3.GA
+18:57:30,508 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+18:57:30,518 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+18:57:30,527 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+18:57:30,586 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+18:57:30,598 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+18:57:30,623 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+18:57:30,660 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+18:57:30,663 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+18:57:30,670 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+18:57:30,693 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+18:57:30,706 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+18:57:30,721 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+18:57:30,723 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+18:57:30,793 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013100: Current PicketBox version=4.0.7.Final
+18:57:31,050 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+18:57:31,316 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:57:31,785 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+18:57:33,380 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-7) JBoss Web Services - Stack CXF Server 4.0.2.GA
+18:57:34,261 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\deployments
+18:57:34,267 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on /127.0.0.1:4447
+18:57:34,267 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /127.0.0.1:9999
+18:57:34,628 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+18:57:34,629 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final &quot;Brontes&quot; started in 7113ms - Started 133 of 208 services (74 services are passive or on-demand)
+18:57:36,054 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\data\content\66\e76274355b334635a5f1ebe0ff4925ce6e8eb0\content
+18:57:36,108 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of &quot;arquillian-service&quot;
+18:57:36,555 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment &quot;deployment.arquillian-service&quot; is using a private module (&quot;org.jboss.as.jmx:main&quot;) which may be changed or removed in future versions without notice.
+18:57:36,557 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment &quot;deployment.arquillian-service&quot; is using a private module (&quot;org.jboss.as.server:main&quot;) which may be changed or removed in future versions without notice.
+18:57:36,560 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment &quot;deployment.arquillian-service&quot; is using a private module (&quot;org.jboss.as.osgi:main&quot;) which may be changed or removed in future versions without notice.
+18:57:36,561 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment &quot;deployment.arquillian-service&quot; is using a private module (&quot;org.jboss.jandex:main&quot;) which may be changed or removed in future versions without notice.
+18:57:36,563 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment &quot;deployment.arquillian-service&quot; is using a private module (&quot;org.jboss.osgi.framework:main&quot;) which may be changed or removed in future versions without notice.
+18:57:36,857 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed &quot;arquillian-service&quot;
+18:57:37,597 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\data\content\65\abd5b505ff9f8911b9f1c62eedc73ed10ae6d0\content
+18:57:37,602 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of &quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;
+18:57:37,727 WARN  [org.jboss.modules] (MSC service thread 1-4) Failed to define class com.ciaran.test.Greeting in Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader: java.lang.LinkageError: Failed to link com/ciaran/test/Greeting (Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:396) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:243) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:73) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.Module.loadModuleClass(Module.java:517) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:182) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_75]
+	at java.lang.Class.forName(Class.java:274) [rt.jar:1.7.0_75]
+	at org.jboss.as.server.deployment.reflect.DeploymentClassIndex.classIndex(DeploymentClassIndex.java:54)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:63) [jboss-as-ee-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:55) [jboss-as-ee-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_75]
+Caused by: java.lang.NoClassDefFoundError: com/ciaran/test/GreetLocal
+	at java.lang.ClassLoader.defineClass1(Native Method) [rt.jar:1.7.0_75]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800) [rt.jar:1.7.0_75]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) [rt.jar:1.7.0_75]
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:327) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:391) [jboss-modules.jar:1.1.1.GA]
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.ciaran.test.GreetLocal from [Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	... 24 more
+
+18:57:37,778 WARN  [org.jboss.modules] (MSC service thread 1-4) Failed to define class com.ciaran.test.Greeting in Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader: java.lang.LinkageError: Failed to link com/ciaran/test/Greeting (Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:396) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:243) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:73) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.Module.loadModuleClass(Module.java:517) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:182) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.as.ejb3.deployment.processors.BusinessViewAnnotationProcessor.getEjbClass(BusinessViewAnnotationProcessor.java:225)
+	at org.jboss.as.ejb3.deployment.processors.BusinessViewAnnotationProcessor.deploy(BusinessViewAnnotationProcessor.java:97)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_75]
+Caused by: java.lang.NoClassDefFoundError: com/ciaran/test/GreetLocal
+	at java.lang.ClassLoader.defineClass1(Native Method) [rt.jar:1.7.0_75]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800) [rt.jar:1.7.0_75]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) [rt.jar:1.7.0_75]
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:327) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:391) [jboss-modules.jar:1.1.1.GA]
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.ciaran.test.GreetLocal from [Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	... 21 more
+
+18:57:37,805 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC00001: Failed to start service jboss.deployment.unit.&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;.POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit.&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment &quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_75]
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: Could not load EJB class com.ciaran.test.Greeting
+	at org.jboss.as.ejb3.deployment.processors.BusinessViewAnnotationProcessor.getEjbClass(BusinessViewAnnotationProcessor.java:227)
+	at org.jboss.as.ejb3.deployment.processors.BusinessViewAnnotationProcessor.deploy(BusinessViewAnnotationProcessor.java:97)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.ciaran.test.Greeting from [Module &quot;deployment.82ad0668-fd83-4241-8254-40b92f25dcbc.jar:main&quot; from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at org.jboss.as.ejb3.deployment.processors.BusinessViewAnnotationProcessor.getEjbClass(BusinessViewAnnotationProcessor.java:225)
+	... 7 more
+
+18:57:37,819 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS015870: Deploy of deployment &quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot; was rolled back with failure message {&quot;JBAS014671: Failed services&quot; =&gt; {&quot;jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE&quot; =&gt; &quot;org.jboss.msc.service.StartException in service jboss.deployment.unit.\&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment \&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar\&quot;&quot;}}
+18:57:37,833 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment 82ad0668-fd83-4241-8254-40b92f25dcbc.jar in 13ms
+18:57:37,836 INFO  [org.jboss.as.controller] (management-handler-thread - 3) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit.&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;.POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit.&quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;.POST_MODULE: Failed to process phase POST_MODULE of deployment &quot;82ad0668-fd83-4241-8254-40b92f25dcbc.jar&quot;
+
+</system-out>
+    <system-err>May 14, 2017 6:57:27 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFO: Starting container with: [c:\tools\java\jdk1.7.0_75\bin\java, -Xmx512m, -XX:MaxPermSize=128m, -ea, -Djboss.home.dir=target/jboss-as-7.1.1.Final, -Dorg.jboss.boot.log.file=target/jboss-as-7.1.1.Final/standalone/log/boot.log, -Dlogging.configuration=file:target/jboss-as-7.1.1.Final/standalone/configuration/logging.properties, -Djboss.modules.dir=C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\modules, -Djboss.bundles.dir=C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\bundles, -jar, C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\jboss-modules.jar, -mp, target/jboss-as-7.1.1.Final\modules, -jaxpmodule, javax.xml.jaxp-provider, org.jboss.as.standalone, -server-config, standalone.xml]
+May 14, 2017 6:57:27 PM org.xnio.Xnio &lt;clinit&gt;
+INFO: XNIO Version 3.0.0.GA
+May 14, 2017 6:57:27 PM org.xnio.nio.NioXnio &lt;clinit&gt;
+INFO: XNIO NIO Implementation Version 3.0.0.GA
+May 14, 2017 6:57:27 PM org.jboss.remoting3.EndpointImpl &lt;clinit&gt;
+INFO: JBoss Remoting version 3.2.3.GA
+May 14, 2017 6:57:35 PM org.jboss.as.arquillian.protocol.jmx.ArquillianServiceDeployer doServiceDeploy
+INFO: Deploy arquillian service: arquillian-service: 996 assets
+</system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,93 @@
+22:26:21,435 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+22:26:26,264 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+22:26:26,448 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+22:26:26,470 DEBUG [org.jboss.as.config] Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = c:\tools\java\jdk1.7.0_75\jre\lib\endorsed
+	java.ext.dirs = c:\tools\java\jdk1.7.0_75\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = c:\tools\java\jdk1.7.0_75\jre
+	java.io.tmpdir = C:\Users\ciaran\AppData\Local\Temp\
+	java.library.path = c:\tools\java\jdk1.7.0_75\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\tools\java\jdk1.7.0_75\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\tools\apache-maven-3.3.3\bin;C:\tools\apache-maven-3.3.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Users\ciaran\AppData\Local\Microsoft\WindowsApps;;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_75-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_75
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.75-b04
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\bundles
+	jboss.home.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final
+	jboss.host.name = ciaran-laptop
+	jboss.modules.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\modules
+	jboss.node.name = ciaran-laptop
+	jboss.qualified.host.name = ciaran-laptop
+	jboss.server.base.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone
+	jboss.server.config.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\log
+	jboss.server.name = ciaran-laptop
+	jboss.server.temp.dir = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:target/jboss-as-7.1.1.Final/standalone/configuration/logging.properties
+	module.path = target/jboss-as-7.1.1.Final\modules
+	org.jboss.boot.log.file = target/jboss-as-7.1.1.Final/standalone/log/boot.log
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = c:\tools\java\jdk1.7.0_75\jre\lib\resources.jar;c:\tools\java\jdk1.7.0_75\jre\lib\rt.jar;c:\tools\java\jdk1.7.0_75\jre\lib\sunrsasign.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jsse.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jce.jar;c:\tools\java\jdk1.7.0_75\jre\lib\charsets.jar;c:\tools\java\jdk1.7.0_75\jre\lib\jfr.jar;c:\tools\java\jdk1.7.0_75\jre\classes
+	sun.boot.library.path = c:\tools\java\jdk1.7.0_75\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\jboss-modules.jar -mp target/jboss-as-7.1.1.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = GB
+	user.dir = C:\projects\MavenTest\maventest\maventest-ejb
+	user.home = C:\Users\ciaran
+	user.language = en
+	user.name = ciaran
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+22:26:26,492 DEBUG [org.jboss.as.config] VM Arguments: -Xmx512m -XX:MaxPermSize=128m -ea -Djboss.home.dir=target/jboss-as-7.1.1.Final -Dorg.jboss.boot.log.file=target/jboss-as-7.1.1.Final/standalone/log/boot.log -Dlogging.configuration=file:target/jboss-as-7.1.1.Final/standalone/configuration/logging.properties -Djboss.modules.dir=C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\modules -Djboss.bundles.dir=C:\projects\MavenTest\maventest\maventest-ejb\target\jboss-as-7.1.1.Final\bundles 
+22:26:38,439 INFO  [org.xnio] XNIO Version 3.0.3.GA
+22:26:38,439 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+22:26:38,548 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+22:26:38,671 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+22:26:38,782 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
